@@ -1,5 +1,5 @@
 /* General Reset */
-body, h1, ul, li, p {
+body, h1, h2, h3, ul, li, p {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -48,20 +48,19 @@ body {
     background-color: #5b9bd5;
 }
 
-/* Hero Section */
-.hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
+/* Main Content Styling */
+.content {
     padding: 20px;
+    text-align: left;
 }
 
-.hero img {
+.map iframe {
     width: 100%;
-    max-height: 400px;
-    object-fit: cover;
-    border-radius: 10px;
+    max-width: 600px;
+    height: 400px;
+    border: 0;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
 
 /* Footer Styling */
@@ -76,6 +75,8 @@ body {
 .footer p {
     margin: 5px 0;
 }
+
+/* Facebook Icon Styling */
 .social-link {
     display: inline-block;
     margin-top: 10px;
