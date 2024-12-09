@@ -54,49 +54,46 @@ body {
     text-align: center;
 }
 
-/* Employee Section Styling */
-.team {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+/* Products Section Styling */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-    margin: 20px 0;
+    margin-top: 20px;
+    padding: 10px;
 }
 
-.employee {
-    text-align: center;
-    max-width: 200px;
+.product {
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
     padding: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.employee:hover {
+.product:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
-.employee-photo {
-    width: 150px;
+.product-photo {
+    width: 100%;
     height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
+    object-fit: cover; /* Ensures the image fits without distortion */
+    border-radius: 10px; /* Slightly rounded corners */
     margin-bottom: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.employee h3 {
+.product h3 {
     font-size: 1.2rem;
-    margin: 10px 0 5px;
+    margin-bottom: 10px;
     color: #2e4924;
 }
 
-.employee p {
+.product p {
     font-size: 0.9rem;
     color: #555;
-    margin: 5px 0;
 }
 
 /* Footer Styling */
