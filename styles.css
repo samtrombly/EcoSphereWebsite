@@ -108,4 +108,64 @@ body {
 }
 
 .product {
-    background-color: #fff
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.product-photo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #2e4924;
+}
+
+.product p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #2e4924;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1rem;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+/* Facebook Icon Styling */
+.social-link {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
