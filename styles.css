@@ -127,3 +127,12 @@ body {
 .social-icon:hover {
     transform: scale(1.1);
 }
+.employee-photo {
+    width: 150px; /* Fixed width */
+    height: 150px; /* Fixed height */
+    object-fit: cover; /* Crops the image to fit within the dimensions */
+    border-radius: 50%; /* Makes the photos circular */
+    margin-bottom: 10px; /* Adds space below the photo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow for a polished look */
+}
+
